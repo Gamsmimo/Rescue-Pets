@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0000"
+    android:padding="20dp"
+    tools:context=".IniciarSesion">
+
+
+
+
+    <!--Textview: Label Iniciar Sesión-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:fontFamily="cursive"
+        android:text="Iniciar Sesión"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="100sp" />
+
+    <!--EditText: Input Email-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:hintTextColor="@color/black"
+        app:boxStrokeColor="@color/black"
+        android:id="@+id/emailTIL">
+        <EditText
+            android:id="@+id/emailEt"
+            android:inputType="textEmailAddress"
+            android:hint="Correo"
+            android:layout_width="match_parent"
+            android:background="#0000"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--EditText: Input Password-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/passwordlTIL"
+        app:endIconMode="clear_text"
+        android:layout_below="@+id/emailTIL"
+        app:hintTextColor="@color/black"
+        app:boxStrokeColor="@color/black"
+        app:passwordToggleEnabled="true">
+        <EditText
+            android:id="@+id/passwordlEt"
+            android:inputType="textPassword"
+            android:hint="Contraseña"
+            android:layout_width="match_parent"
+            android:background="#fff"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <!--Button: registro de ususario-->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/login_btn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordlTIL"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:text="Iniciar Sesión"
+        android:padding="10dp"
+        android:drawableStart="@drawable/clave"
+        android:drawablePadding="10dp"
+        android:background="@drawable/botonpersonalizado"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold" />
+
+
+
+
+    <!--Textview: Click go to Registro-->
+    <TextView
+        android:id="@+id/noTener_cuentaTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/no_tienes_cuenta_registrate"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

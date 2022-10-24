@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "232205251103",
+    "firebase_url": "https://rescuepets-abca0-default-rtdb.firebaseio.com",
+    "project_id": "rescuepets-abca0",
+    "storage_bucket": "rescuepets-abca0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232205251103:android:30ef80b2d9adca8a091b2a",
+        "android_client_info": {
+          "package_name": "com.example.rescuepets"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "232205251103-sqp56rhojua6lj1ifgvrp0hatk05a62b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rescuepets",
+            "certificate_hash": "592b42914b3e766bd242f88492ed880f6d2da8b1"
+          }
+        },
+        {
+          "client_id": "232205251103-q3jsb5gs59gtu1lshpcefbgotmv353fe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-3QeunVg0lsR6oeR7g0hZ3sKjTp-JrqM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "232205251103-q3jsb5gs59gtu1lshpcefbgotmv353fe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
